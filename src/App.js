@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo"
         alt="logo" />
+        <a hreg="#" className="btn btn-primary">Hiya</a>
         
       </header>
      
