@@ -3,8 +3,7 @@ import Meaning from "./Meaning";
 
 export default function Results(props) {
     if (props.results) { 
-
-       return (  
+        return (  
        <div className="Results">
            <h2>{props.results.word}</h2>
            {props.results.meanings.map(function (meaning, index) {
@@ -12,9 +11,9 @@ export default function Results(props) {
                  <div key={index}>
                      <Meaning meaning={meaning} /> 
                       </div>
-               );
-               })}
-               </div>
+                    );
+                })}
+                </div>
                );
  } else { 
      return null;
