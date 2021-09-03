@@ -31,7 +31,12 @@ function handleKeywordChange (event) {
  }
 
 return (
-<div className="Dictionary">
+<div className="Dictionary.App-logo {
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
+}
+">
 <form onSubmit={search}>
 <input type="search" onChange={handleKeywordChange}/>
 </form>
