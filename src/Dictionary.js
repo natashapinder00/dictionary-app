@@ -21,8 +21,7 @@ let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
 axios.get(apiUrl).then(handleResponse);
 }
 
-
-function handleKeywordChange (event) {
+function handleKeywordChange(event) {
 setKeyword(event.target.value);
  }
 
@@ -31,8 +30,7 @@ return (
 <form onSubmit={search}>
 <input type="search" onChange={handleKeywordChange}/>
 </form>
-
-<Results />
+<Results results={results} />
 </div>
 );
 }
