@@ -14,14 +14,30 @@ export default function App() {
         <main>
           <Dictionary /> 
           </main>
-          <footer
-          className="text-center">
-            Coded by Natasha Pinder
-          </footer>
+          
+           <footer>
+          This project was coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/natasha-p-9a3621173/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Natasha Pinder
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/natashapinder00/react-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced on Github
+          </a>
+        </footer>
      
-      
-    </div>
-    </div>
+       </div>
+           </div>
+    
+   
   );
 }
 
