@@ -14,7 +14,7 @@ export default function App() {
         <main>
           <Dictionary /> 
           </main>
-          
+         
            <footer>
           This project was coded by{" "}
           <a
@@ -33,11 +33,9 @@ export default function App() {
             open-sourced on Github
           </a>
         </footer>
-     
+     </div>
        </div>
-           </div>
-    
-   
+        
   );
 }
 
