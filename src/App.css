@@ -1,10 +1,9 @@
 .App {
   max-width: 600px;
-  margin: 30px;
   border: 1px solid #dadde1;
   color: rgb(135, 135, 135);
-  padding: 15px;
-  margin: 20px auto;
+  padding: 10px;
+  margin: 30px auto;
   border-radius: 9px;
 }
 
