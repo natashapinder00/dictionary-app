@@ -15,7 +15,6 @@ export default function App() {
           <Dictionary /> 
           </main>
     
-          </div>
            <footer>
           This project was coded by{" "}
           <a
@@ -36,6 +35,8 @@ export default function App() {
         </footer>
        
       </div>
+      </div>
+         
          
    
        
