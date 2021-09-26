@@ -1,5 +1,5 @@
 .Phonetic {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .Phonetic a {
@@ -21,4 +21,5 @@
 .Phonetic .text {
   opacity: 0.5;
   font-weight: bold;
+  color: #2c5cb8;
 }
