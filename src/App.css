@@ -2,18 +2,21 @@
   max-width: 600px;
   border: 1px solid #dadde1;
   color: rgb(135, 135, 135);
-  padding: 10px;
+  padding: 5px;
   margin: 30px auto;
   border-radius: 9px;
 }
 
+.App-header {
+  margin: 30px 0;
+}
 .App-logo {
   max-width: 400px;
   display: block;
   margin: 0 auto;
 }
 
-.App footer {
-  font-size: 11px;
-  margin: 10px 0;
+.App-footer {
+  text-align: center;
+  margin: 30px 0;
 }
